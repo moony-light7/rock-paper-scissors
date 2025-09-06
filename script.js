@@ -45,3 +45,18 @@ function playRound(humanChoice, computerChoice){
         computerScore++
     }
 }
+
+    for(i=0; i<6; i++){
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection);
+}
+
+if(humanScore>computerScore){
+    console.log("You win!")
+} else if (computerScore>humanScore){
+    console.log("Computer wins!")
+} else{
+    console.log("It is a tie!")
+}
+    }
