@@ -60,3 +60,5 @@ if(humanScore>computerScore){
     console.log("It is a tie!")
 }
     }
+
+        playGame();
